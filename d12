@@ -1,0 +1,6 @@
+from random import randint
+repeat = True
+while repeat:
+   print("You rolled:", randint(1, 12))
+   print("Do you want to roll again? y/n")
+   repeat = ("y" or "yes") in input().lower()
